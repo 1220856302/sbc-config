@@ -1,0 +1,17 @@
+﻿spring:
+  profiles:
+    active:
+      - dev
+---
+
+spring:
+     profiles: dev
+     application:
+       name: mc-config-zhang-dev
+
+---
+
+spring:
+     profiles: test
+     application:
+       name: mc-config-zhang-test
